@@ -1,0 +1,105 @@
+.no-padding {
+  padding: 0 !important;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #333;
+  text-align: center;
+
+  .header_list {
+    margin: 0 auto;
+    padding: 0;
+
+    .header_item {
+      margin: 0 auto;
+      padding: 0;
+      display: inline-block;
+
+      .header_link {
+        margin: 0 auto;
+        color: #FFF;
+      }
+
+      .header_link:hover {
+        color: darkred;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+
+/*====================================================================
+============ Bootstrap 3 Media Queries====================
+====================================================================*/
+@media only screen and (max-width: 420px) {
+
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px;
+  }
+
+}
+
+/*==================================================
+============== Mobile First Method =================
+=              Custom, iPhone Retina
+==================================================*/
+@media only screen and (min-width : 320px) {
+
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px;
+  }
+
+}
+
+/*==================================================
+=       Extra Small Devices, Portrait Phones       =
+==================================================*/
+@media only screen and (min-width : 480px) {
+
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px;
+  }
+
+}
+
+/*=================================================================================
+= Small Devices, Landscape Phones and Phablets, Portrait Tablets, Small Desktops =
+=================================================================================*/
+@media only screen and (min-width : 768px) {
+
+  .header_link {
+    padding: 0 20%;
+    font-size: 14px;
+  }
+
+}
+
+/*======================================================
+= Medium Devices, Landscape Tablets, Laptops, Desktops =
+======================================================*/
+@media only screen and (min-width : 992px) {
+
+  .header_link {
+    padding: 0 20%;
+    font-size: 16px;
+  }
+
+}
+
+/*==================================================
+=   Large Devices, Large Desktops, Wide Screens    =
+==================================================*/
+@media only screen and (min-width : 1200px) {
+
+  .header_link {
+    padding: 0 20%;
+    font-size: 18px;
+  }
+
+}

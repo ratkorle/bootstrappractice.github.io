@@ -1,0 +1,21 @@
+body {
+  background-color: #00b3ee;
+}
+
+
+
+.roundedd {
+  border-radius: 50%;
+  height: 190px;
+  width: 250px;
+  margin-bottom: 5%;
+  margin-top: 20%;
+}
+.roundedd:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.batn {
+  width: 250px;
+  margin-bottom: 5%;
+}

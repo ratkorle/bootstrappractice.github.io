@@ -1,0 +1,231 @@
+/*doc
+---
+title: Colors
+name: colors
+category: Basics
+---
+<div class="cf">
+	<div class="doc-color-brand">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-base">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-primary">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-secondary">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-text">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-link">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-positive">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-negative">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-neutral">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-warning">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-info">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+	<div class="doc-color-special">
+		<div class="doc-color-lighter"></div>
+		<div class="doc-color-darker"></div>
+	</div>
+</div>
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', serif; }
+
+p {
+  font-family: 'Noto Serif', serif; }
+
+a {
+  font-family: 'Noto Serif', serif;
+  text-decoration: none; }
+
+.pdb {
+  padding-bottom: 10%; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.header {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #333;
+  text-align: center; }
+  .header .header_list {
+    margin: 0 auto;
+    padding: 0; }
+    .header .header_list .header_item {
+      margin: 0 auto;
+      padding: 0;
+      display: inline-block; }
+      .header .header_list .header_item .header_link {
+        margin: 0 auto;
+        color: #FFF; }
+      .header .header_list .header_item .header_link:hover {
+        color: darkred;
+        text-decoration: none; }
+
+/*====================================================================
+============ Bootstrap 3 Media Queries====================
+====================================================================*/
+@media only screen and (max-width: 420px) {
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px; } }
+/*==================================================
+============== Mobile First Method =================
+=              Custom, iPhone Retina
+==================================================*/
+@media only screen and (min-width: 320px) {
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px; } }
+/*==================================================
+=       Extra Small Devices, Portrait Phones       =
+==================================================*/
+@media only screen and (min-width: 480px) {
+  .header_link {
+    padding: 0 5%;
+    font-size: 13px; } }
+/*=================================================================================
+= Small Devices, Landscape Phones and Phablets, Portrait Tablets, Small Desktops =
+=================================================================================*/
+@media only screen and (min-width: 768px) {
+  .header_link {
+    padding: 0 20%;
+    font-size: 14px; } }
+/*======================================================
+= Medium Devices, Landscape Tablets, Laptops, Desktops =
+======================================================*/
+@media only screen and (min-width: 992px) {
+  .header_link {
+    padding: 0 20%;
+    font-size: 16px; } }
+/*==================================================
+=   Large Devices, Large Desktops, Wide Screens    =
+==================================================*/
+@media only screen and (min-width: 1200px) {
+  .header_link {
+    padding: 0 20%;
+    font-size: 18px; } }
+.main_img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-size: cover; }
+
+.card_custom {
+  border-radius: 0 !important;
+  border: 2px solid #333 !important;
+  background: darkgrey !important; }
+
+.btn_custom {
+  color: #fff !important;
+  background-color: #333 !important;
+  border-color: #333 !important;
+  border-radius: 0 !important; }
+
+.beer1 {
+  text-align: center;
+  font-size: 45px;
+  margin-left: 35%; }
+
+.beer2 {
+  text-align: center;
+  margin-left: 35%;
+  font-size: 30px; }
+
+.pizza1 {
+  background-color: darkslategray; }
+
+.coffee1 {
+  text-align: center;
+  margin-right: 50%;
+  margin-bottom: 10%; }
+
+body {
+  background-color: lightgreen; }
+
+.scroll {
+  position: relative;
+  height: 30%;
+  overflow-y: scroll; }
+
+body {
+  background-color: #43a047; }
+
+.pb {
+  margin-top: 5%; }
+
+body {
+  background-color: #00b3ee; }
+
+.roundedd {
+  border-radius: 50%;
+  height: 190px;
+  width: 250px;
+  margin-bottom: 5%;
+  margin-top: 20%; }
+
+.roundedd:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+.batn {
+  width: 250px;
+  margin-bottom: 5%; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+/*# sourceMappingURL=style.css.map */
