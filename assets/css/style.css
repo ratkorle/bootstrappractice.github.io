@@ -173,19 +173,19 @@ a {
 body {
   background-color: lightgreen; }
 
+.bg {
+  background-color: #e53935; }
+
 .scroll {
   position: relative;
   height: 30%;
   overflow-y: scroll; }
 
-body {
-  background-color: #43a047; }
-
 .pb {
   margin-top: 5%; }
 
-body {
-  background-color: #00b3ee; }
+.contactbackground {
+  background-image: url("assets/img/contacthd.jpg"); }
 
 .roundedd {
   border-radius: 50%;
